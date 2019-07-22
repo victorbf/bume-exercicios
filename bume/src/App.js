@@ -8,6 +8,11 @@ import {
   Exercicio3Page,
   Exercicio4Page,
   Exercicio5Page,
+  Exercicio6Page,
+  Exercicio7Page,
+  Exercicio8Page,
+  Exercicio9Page,
+  Exercicio10Page,
 } from './components/pages';
 import Navbar from './components/layout/Navbar';
 
@@ -15,6 +20,7 @@ const App = () => {
   const GlobalStyles = createGlobalStyle`
     body {
       font-family: 'Roboto', sans-serif;
+      margin: 0;
     }
     strong {
       font-weight: 500;
@@ -56,19 +62,29 @@ const App = () => {
             component={Exercicio5Page}
           />
           <Route
+            exact
             path="/exercicio-6"
+            component={Exercicio6Page}
           />
           <Route
+            exact
             path="/exercicio-7"
+            component={Exercicio7Page}
           />
           <Route
+            exact
             path="/exercicio-8"
+            component={Exercicio8Page}
           />
           <Route
+            exact
             path="/exercicio-9"
+            component={Exercicio9Page}
           />
           <Route
+            exact
             path="/exercicio-10"
+            component={Exercicio10Page}
           />
         </Container>
       </Router>

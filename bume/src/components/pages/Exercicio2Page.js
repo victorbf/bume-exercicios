@@ -1,4 +1,5 @@
 import React, { Fragment, Component } from 'react';
+import QuestionHeader from '../layout/QuestionHeader';
 
 class Exercicio2Page extends Component {
   state = {
@@ -28,8 +29,9 @@ class Exercicio2Page extends Component {
     const { users } = this.state;
     return (
       <Fragment>
-        <h1>Exercicio 2</h1>
-        <p>
+        <QuestionHeader
+          title="Exercicio 2"
+          description="
           Ao desenvolver com React/React-Native,
           nos deparamos com um conceito de controle de
           componentes na interface diferente do que somos
@@ -40,8 +42,8 @@ class Exercicio2Page extends Component {
           o React reconstrói/renderiza a tela novamente com o novo estado.
           Baseado nessas informações,
           construa uma lista com os dados fornecidos,
-          que randomize os dados a cada vez que clicar no botão indicado.
-        </p>
+          que randomize os dados a cada vez que clicar no botão indicado."
+        />
         <div>
           <button onClick={this.shuffle}>Random</button>
           <h1>Lista de usuários: </h1>

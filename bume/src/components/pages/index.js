@@ -3,3 +3,8 @@ export { default as Exercicio2Page } from './Exercicio2Page';
 export { default as Exercicio3Page } from './Exercicio3Page';
 export { default as Exercicio4Page } from './Exercicio4Page';
 export { default as Exercicio5Page } from './Exercicio5Page';
+export { default as Exercicio6Page } from './Exercicio6Page';
+export { default as Exercicio7Page } from './Exercicio7Page';
+export { default as Exercicio8Page } from './Exercicio8Page';
+export { default as Exercicio9Page } from './Exercicio9Page';
+export { default as Exercicio10Page } from './Exercicio10Page';
