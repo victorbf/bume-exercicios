@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/bume-exercicios/static/js/main.9b8c68ff.chunk.js",
+    "main.js.map": "/bume-exercicios/static/js/main.9b8c68ff.chunk.js.map",
+    "runtime~main.js": "/bume-exercicios/static/js/runtime~main.37394ee1.js",
+    "runtime~main.js.map": "/bume-exercicios/static/js/runtime~main.37394ee1.js.map",
+    "static/js/2.aaf82868.chunk.js": "/bume-exercicios/static/js/2.aaf82868.chunk.js",
+    "static/js/2.aaf82868.chunk.js.map": "/bume-exercicios/static/js/2.aaf82868.chunk.js.map",
+    "index.html": "/bume-exercicios/index.html",
+    "precache-manifest.549ca4b079eafdf3309001669146238e.js": "/bume-exercicios/precache-manifest.549ca4b079eafdf3309001669146238e.js",
+    "service-worker.js": "/bume-exercicios/service-worker.js"
+  }
+}
