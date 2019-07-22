@@ -5,7 +5,7 @@ const Exercicio6Page = () => {
   return (
     <Fragment>
       <QuestionHeader
-        title="Exércicio 6"
+        title="Exercício 6"
         description="Pensando em versionamento de arquivos e GIT, considere a seguinte
         situação: Uma equipe de desenvolvimento remota foi contratada
         para fazer algumas atualizações em um grande projeto da sua
